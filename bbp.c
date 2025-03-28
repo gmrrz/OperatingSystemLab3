@@ -29,7 +29,7 @@ void *producer(void *param){
 		sem_post(&mutex);
 		sem_post(&full);
 
-		printf("producer produced an item, counter is: %d\n", counter);
+		//printf("producer produced an item, counter is: %d\n", counter);
 		sleep(1);
 	}
 }
